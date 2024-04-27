@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <p>Informações sobre os títulos conquistados na história do clube</p>
+</header>
+
+<main>
+    <section id="titulos">
+        <h2>Títulos Conquistados</h2>
+        <div class="container mt-3">
+          <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th>Troféus</th>
+                <th>Competições</th>
+                <th>Títulos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center"><img src="static/img/mundial.png" alt="mundial" class="trophy-image"></td>
+                <td>Mundial de Clubes da FIFA</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td align="center"><img src="static/img/libertadores.png" alt="libertadores" class="trophy-image"></td>
+                <td>Copa Libertadores da América</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td align="center"><img src="static/img/brasileirao.png" alt="brasileirao" class="trophy-image"></td>
+                <td>Campeonato Brasileiro</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td align="center"><img src="static/img/copadobr.png" alt="copadobr" class="trophy-image"></td>
+                <td>Copa do Brasil</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td align="center"><img src="static/img/paulistao.png" alt="paulistao" class="trophy-image"></td>
+                <td>Campeonato Paulista</td>
+                <td>30</td>
+              </tr>
+              <tr>
+            </tbody>
+          </table>
+
+        <ul class="titles-list">
+          <p>Mundial de Clubes da FIFA: <strong> 2 vezes </strong></p>
+        </ul>
+        <ul class="titles-list">
+          <p>Copa Libertadores da América: <strong> 1 vez </strong></p>
+        </ul>
+        <ul class="titles-list">
+          <p>Campeonato Brasileiro: <strong> 7 vezes </strong></p>
+        </ul>
+        <ul class="titles-list">
+          <p>Copa do Brasil: <strong> 3 vezes </strong></p>
+        </ul>
+        <ul class="titles-list">
+          <p>Campeonato Paulista: <strong> 30 vezes </strong></p>
+        </ul>
+
+            <!-- Adicione mais títulos conforme necessário -->
+        </ul>
+    </section>
+</main>
+{% endblock %}
