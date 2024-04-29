@@ -3,10 +3,55 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
+<style>
+  body {
+    background-color: #606060;
+  }
+</style>
     <p>Informações sobre os títulos conquistados na história do clube</p>
 </header>
 
 <main>
+   <h4>Sport Club Corinthians Paulista é uma das equipes mais vitoriosas do futebol brasileiro, com uma história repleta de conquistas memoráveis. Desde sua fundação em 1910, o Corinthians acumulou uma impressionante coleção de títulos, abrangendo campeonatos estaduais, nacionais e internacionais. Explore abaixo os principais momentos que marcaram a trajetória gloriosa deste clube lendário.</h4>
+
+   <!-- Carousel -->
+<div id="demo" class="carousel slide container-fluid col-12" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="rounded img-thumbnail" src="/static/img/brasileirao2015.jpg" alt="brasileirao2015" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img class="rounded img-thumbnail" src="/static/img/mundial2012.jpg" alt="mundial2012" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img class="rounded img-thumbnail" src="/static/img/paulistao2017.jpg" alt="paulistao2017" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img class="rounded img-thumbnail" src="/static/img/cdb2009.jpg" alt="cdb2009" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+  <h4>Desde sua fundação em 1910, o Corinthians acumulou uma impressionante coleção de títulos, abrangendo campeonatos estaduais, nacionais e internacionais. Entre suas conquistas mais notáveis estão o Campeonato Brasileiro de 1990, a Copa Libertadores da América e o Mundial de Clubes da FIFA, ambos em 2012. Com uma torcida apaixonada e uma história de glórias, o Corinthians se destaca como um dos grandes do futebol brasileiro.Agora, vamos ver essa tabela com todos os títulos.</h4>
+  
     <section id="titulos">
         <h2>Títulos Conquistados</h2>
         <div class="container mt-3">
@@ -47,22 +92,6 @@
               <tr>
             </tbody>
           </table>
-
-        <ul class="titles-list">
-          <p>Mundial de Clubes da FIFA: <strong> 2 vezes </strong></p>
-        </ul>
-        <ul class="titles-list">
-          <p>Copa Libertadores da América: <strong> 1 vez </strong></p>
-        </ul>
-        <ul class="titles-list">
-          <p>Campeonato Brasileiro: <strong> 7 vezes </strong></p>
-        </ul>
-        <ul class="titles-list">
-          <p>Copa do Brasil: <strong> 3 vezes </strong></p>
-        </ul>
-        <ul class="titles-list">
-          <p>Campeonato Paulista: <strong> 30 vezes </strong></p>
-        </ul>
 
             <!-- Adicione mais títulos conforme necessário -->
         </ul>

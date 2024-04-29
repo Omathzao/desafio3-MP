@@ -1,15 +1,45 @@
-{% extends "base.html" %}
 
-{% block title %}Home{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corinthians</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="home">
+        <nav>
+            <img class="img1 fixed-top" src="static/img/sccp_escudo.png">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/elenco">Elenco</a></li>
+                <li><a href="/titulos">Títulos</a></li>
+            </ul>
+        </nav>
+        <div class="home-body">
+            <div class="home-content">
+                <h1>Bem-vindo ao Mundo Alvinegro!</h1>
+                <p>Somos o Corinthians, uma paixão que une milhões de torcedores pelo Brasil e pelo mundo. Fundado em 1910, o Sport Club Corinthians Paulista carrega uma história de glórias, tradição e uma legião de fiéis seguidores.</p>
+                <p>Aqui, você encontrará informações sobre nosso elenco atual e os títulos que conquistamos ao longo dos anos.
 
-{% block content %}
-
-    <p>Informações sobre jogadores atuais e títulos conquistados do clube</p>
-</header>
-<main>
-    <section>
-        <h2>Seja bem-vindo ao site do Corinthians!</h2>
-        <p>Aqui você encontrará informações sobre o elenco atual e os títulos conquistados pelo clube.</p>
+                    Conheça os jogadores que vestem o manto alvinegro e descubra os troféus que orgulhosamente exibimos em nossa história.
+                    
+                    Explore nosso site para ficar por dentro de tudo o que envolve o Sport Club Corinthians Paulista.
+                    
+                    Vai, Corinthians!
+                </p>
+                <p>Conheça os jogadores que vestem o manto alvinegro e descubra os troféus que orgulhosamente exibimos em nossa história.
+                </p>
+            </div>
+        </div>
+        <img src="static/img/torcida1.jpg" class="bg-img"></img>
+        <span class="overlay"></span>
     </section>
-</main>
-{% endblock %}
+<footer>
+     <p>&copy; 2024 Site do Corinthians. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
